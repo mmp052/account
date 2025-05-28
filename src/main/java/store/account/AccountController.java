@@ -13,9 +13,7 @@ import org.springframework.web.bind.annotation.RequestHeader;
 public interface AccountController {
 
     @PostMapping("/account")
-    public ResponseEntity<AccountOut> create(
-        @RequestBody AccountIn accountIn
-    );
+    public ResponseEntity<AccountOut> create(@RequestBody AccountIn in);
 
     @GetMapping("/account")
     public ResponseEntity<List<AccountOut>> findAll();
