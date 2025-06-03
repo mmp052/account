@@ -1,3 +1,7 @@
+<<<<<<< HEAD
+=======
+store/account/AccountApplication.class
+>>>>>>> 72260032931f60fe0ec00e3833d277653ed28cc8
 store/account/AccountIn.class
 store/account/AccountOut$AccountOutBuilder.class
 store/account/AccountIn$AccountInBuilder.class
